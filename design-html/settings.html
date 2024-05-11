@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- general tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Block | Settings</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="images/ico" href="images/favicon.png">
+    <link rel="shortcut icon" type="images/ico" href="images/favicon.ico">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="dashboard-outer-wrap">
+            <div class="dashboard-inner-wrap transition-02">
+
+                <!-- sidebar -->
+                <div class="sidebar-wrap">
+                    <div class="sidebar-top">
+                        <div class="sidebar-toggle-wrap">
+                            <div class="brand-logo">
+                                <a href=""><img src="images/logo-min.svg" alt=""></a>
+                            </div>
+                            <div class="sidebar-toggle">
+                                <img class="toggle-btn-desktop" src="images/menu-toggle.svg"
+                                    alt="sidebar toggle button">
+                                <img class="toggle-btn-mobile" src="images/toggle-btn-mobile.svg"
+                                    alt="sidebar toggle button">
+                            </div>
+                        </div>
+                        <div class="sidebar-links">
+                            <ul>
+                                <li><a href="dashboard.html"><img src="images/monitor.svg" alt=""><span>Dashboard</span></a></li>
+                                <li><a href="project-management.html"><img src="images/projects.svg" alt=""><span>Project
+                                            Management</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-bottom">
+                        <div class="sidebar-links">
+                            <ul>
+                                <li><a href="settings.html" class="active"><img src="images/setting.svg"
+                                            alt=""><span>Settings</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content -->
+                <div class="content-outer-wrap">
+
+                    <div class="topbar">
+                        <div class="top-bar-menu">
+                            <div class="mobile-toggle">
+                                <img src="images/toggle-btn-mobile.svg" alt="">
+                            </div>
+                            <div class="search-bar">
+                                <input type="search" name="search" id="search" placeholder="Search here...">
+                                <div class="search-results">
+                                    <ul>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="topbar-options">
+                            <div class="topbar-dropdowns">
+                                <div class="notify-dropdown">
+                                    <a href="javascript:void(0);" class="notify-btn dropdown-trigger"
+                                        data-dropdown="dropdown-1">
+                                        <img src="images/bell-icon.svg" alt="">
+                                        <span class="notify-count">2</span>
+                                    </a>
+                                    <div class="notify-content dropdown-content" id="dropdown-1">
+                                        <div class="notify-head">
+                                            <h3>Notifications</h3>
+                                            <a href="javascript:void(0);">Mark all as read</a>
+                                        </div>
+                                        <div class="notify-body">
+                                            <div class="notify-list">
+                                                <a href="" class="notify-item unread">
+                                                    <div class="notify-icon">
+                                                        <img src="images/notify-icon.svg" alt="">
+                                                    </div>
+                                                    <div class="notify-text">
+                                                        <p>Redeem your points for gift cards and discounts now!"</p>
+                                                        <span>Just Now</span>
+                                                    </div>
+                                                </a>
+                                                <a href="" class="notify-item">
+                                                    <div class="notify-icon">
+                                                        <img src="images/notify-icon.svg" alt="">
+                                                    </div>
+                                                    <div class="notify-text">
+                                                        <p>Redeem your points for gift cards and discounts now!"</p>
+                                                        <span>Just Now</span>
+                                                    </div>
+                                                </a>
+                                                <a href="" class="notify-item">
+                                                    <div class="notify-icon">
+                                                        <img src="images/notify-icon.svg" alt="">
+                                                    </div>
+                                                    <div class="notify-text">
+                                                        <p>Redeem your points for gift cards and discounts now!"</p>
+                                                        <span>Just Now</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="notify-footer">
+                                            <a href="notifications.html">View All Notifications</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="separator"></span>
+                                <div class="profile-dropdown">
+                                    <a href="javascript:void(0);" class="profile-btn dropdown-trigger"
+                                        data-dropdown="dropdown-2">
+                                        <img src="images/profile-avatar.png" alt="">
+                                    </a>
+                                    <div class="profile-content dropdown-content" id="dropdown-2">
+                                        <ul>
+                                            <li><a href="">Profile</a></li>
+                                            <li><a href="login.html">Logout</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-wrap">
+                        <div class="content-head">
+                            <div>
+                                <h1>Profile Settings</h1>
+                            </div>
+                        </div>
+
+
+                        <div class="content-body">
+                            <div class="settings_wrap card-bg">
+
+                                <form>
+                                    <!-- Profile -->
+
+                                    <div class="settings_row">
+                                        <div class="profile_image">
+                                            <div class="form_column">
+                                                <h2>Profile</h2>
+                                                <p>Update your personal profile details here.</p>
+                                            </div>
+                                        </div>
+                                        <div class="settings_form">
+                                            <div class="upload_image">
+                                                <div class="display_pic">
+                                                    <div class="image_overlay">
+                                                    </div>
+                                                    <img id="profile_pictuce" src="images/edit-profile-avatar.png"
+                                                        alt="Display Picture">
+                                                </div>
+                                                <div class="upload_btn">
+                                                    <button class="upload_file btn-outlined">
+                                                        <img src="images/upload-image.svg" alt="Upload">
+                                                        Upload New Image
+                                                        <input type="file" name="file-input" id="profile-file-input">
+                                                    </button>
+                                                    <button type="button" class="delete_file">
+                                                        <img src="images/icon-delete.svg" alt="Delete Image">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="form_fields">
+                                                <div class="form_column">
+                                                    <label for="first_name">First Name</label>
+                                                    <input type="text" required id="first_name" placeholder="William">
+                                                </div>
+                                                <div class="form_column">
+                                                    <label for="last_name">Last Name</label>
+                                                    <input type="text" required id="last_name" placeholder="William">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Change Email Address -->
+
+                                    <div class="settings_row">
+                                        <div class="profile_image">
+                                            <div class="form_column">
+                                                <h2>Change Email Address</h2>
+                                                <p>Update your email address here.</p>
+                                            </div>
+                                        </div>
+                                        <div class="settings_form">
+                                            <div class="form_fields">
+                                                <div class="form_column">
+                                                    <label for="new_email">New Email</label>
+                                                    <input type="email" required id="new_email"
+                                                        placeholder="example@gmail.com" autocomplete="email">
+                                                </div>
+                                                <div class="form_column form-field">
+                                                    <label for="password">Password</label>
+                                                    <div class="input">
+                                                        <input type="password" required class="password" id="password"
+                                                            placeholder="************" autocomplete="new-password">
+                                                        <i class="fa-solid fa-eye-slash"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Change Password -->
+
+                                    <div class="settings_row">
+                                        <div class="profile_image">
+                                            <div class="form_column">
+                                                <h2>Change Password</h2>
+                                                <p>Set up a new password</p>
+                                            </div>
+                                        </div>
+                                        <div class="settings_form">
+                                            <div class="old_password_div">
+                                                <div class="form_column form-field">
+                                                    <label for="old_password">Old Password</label>
+                                                    <div class="input">
+                                                        <input type="password" required class="password"
+                                                            id="old_password" placeholder="************">
+                                                        <i class="fa-solid fa-eye-slash"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="form_column form-field">
+                                                    <label for="new_password">New Password</label>
+                                                    <div class="input">
+                                                        <input type="password" required class="password"
+                                                            id="new_password" placeholder="************">
+                                                        <i class="fa-solid fa-eye-slash"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="new_password_div">
+                                                <div class="form-field form_column new_password ">
+                                                    <label for="confirm_new_password">Confirm New Password</label>
+                                                    <div class="input">
+                                                        <input type="password" required class="password"
+                                                            id="confirm_new_password" placeholder="************">
+                                                        <i class="fa-solid fa-eye-slash"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Buttons -->
+
+                                    <div class="save_changes_div">
+                                        <button type="reset" class="btn-outlined">Cancel</button>
+                                        <button type="submit" class="btn-filled">Save Changes</button>
+                                    </div>
+
+
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <!-- scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- general tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Block | Project Details</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="images/ico" href="images/favicon.png">
+    <link rel="shortcut icon" type="images/ico" href="images/favicon.ico">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <main>
+        <div class="dashboard-outer-wrap">
+            <div class="dashboard-inner-wrap transition-02">
+
+                <!-- sidebar -->
+                <div class="sidebar-wrap">
+                    <div class="sidebar-top">
+                        <div class="sidebar-toggle-wrap">
+                            <div class="brand-logo">
+                                <a href=""><img src="images/logo-min.svg" alt=""></a>
+                            </div>
+                            <div class="sidebar-toggle">
+                                <img class="toggle-btn-desktop" src="images/menu-toggle.svg"
+                                    alt="sidebar toggle button">
+                                <img class="toggle-btn-mobile" src="images/toggle-btn-mobile.svg"
+                                    alt="sidebar toggle button">
+                            </div>
+                        </div>
+                        <div class="sidebar-links">
+                            <ul>
+                                <li><a href="dashboard.html" class="active"><img src="images/monitor.svg"
+                                            alt=""><span>Dashboard</span></a></li>
+                                <li><a href="project-management.html"><img src="images/projects.svg"
+                                            alt=""><span>Project Management</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-bottom">
+                        <div class="sidebar-links">
+                            <ul>
+                                <li><a href="settings.html" class=""><img src="images/setting.svg"
+                                            alt=""><span>Settings</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content -->
+                <div class="content-outer-wrap">
+
+                    <div class="topbar">
+                        <div class="top-bar-menu">
+                            <div class="mobile-toggle">
+                                <img src="images/toggle-btn-mobile.svg" alt="">
+                            </div>
+                            <div class="search-bar">
+                                <input type="search" name="search" id="search" placeholder="Search here...">
+                                <div class="search-results">
+                                    <ul>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                        <li><img src="images/search-icon.svg" alt=""><a href="">Jupiter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="topbar-options">
+                            <div class="topbar-dropdowns">
+                                <div class="notify-dropdown">
+                                    <a href="javascript:void(0);" class="notify-btn dropdown-trigger" data-dropdown="dropdown-1">
+                                        <img src="images/bell-icon.svg" alt="">
+                                        <span class="notify-count">2</span>
+                                    </a>
+                                    <div class="notify-content dropdown-content" id="dropdown-1">
+                                        <div class="notify-head">
+                                            <h3>Notifications</h3>
+                                            <a href="javascript:void(0);">Mark all as read</a>
+                                        </div>
+                                        <div class="notify-body">
+                                            <div class="notify-list">
+                                                <a href="" class="notify-item unread">
+                                                    <div class="notify-icon">
+                                                        <img src="images/notify-icon.svg" alt="">
+                                                    </div>
+                                                    <div class="notify-text">
+                                                        <p>Redeem your points for gift cards and discounts now!"</p>
+                                                        <span>Just Now</span>
+                                                    </div>
+                                                </a>
+                                                <a href="" class="notify-item">
+                                                    <div class="notify-icon">
+                                                        <img src="images/notify-icon.svg" alt="">
+                                                    </div>
+                                                    <div class="notify-text">
+                                                        <p>Redeem your points for gift cards and discounts now!"</p>
+                                                        <span>Just Now</span>
+                                                    </div>
+                                                </a>
+                                                <a href="" class="notify-item">
+                                                    <div class="notify-icon">
+                                                        <img src="images/notify-icon.svg" alt="">
+                                                    </div>
+                                                    <div class="notify-text">
+                                                        <p>Redeem your points for gift cards and discounts now!"</p>
+                                                        <span>Just Now</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="notify-footer">
+                                            <a href="notifications.html">View All Notifications</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="separator"></span>
+                                <div class="profile-dropdown">
+                                    <a href="javascript:void(0);" class="profile-btn dropdown-trigger" data-dropdown="dropdown-2">
+                                        <img src="images/profile-avatar.png" alt="">
+                                    </a>
+                                    <div class="profile-content dropdown-content" id="dropdown-2">
+                                        <ul>
+                                            <li><a href="">Profile</a></li>
+                                            <li><a href="login.html">Logout</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-wrap">
+                        <div class="content-head">
+                            <div>
+                                <a href="javascript:history.back()"><img src="images/line-arrow-left.svg" alt=""></a>
+                                <h1>Project Details</h1>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <div class="project-details-wrap card-bg">
+                                <div class="project-details">
+                                    <div class="details-img">
+                                        <img src="images/project-detailed-img.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="project-description">
+                                    <h2>Cryptocurrency</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur. A enim eget tempor faucibus arcu ut sit turpis odio. Tellus quis enim id diam faucibus pellentesque posuere. Mauris neque rhoncus euismod odio turpis sit.Lorem ipsum dolor sit amet consectetur. A enim eget tempor faucibus arcu ut sit turpis odio. Tellus quis enim id diam faucibus pellentesque posuere. Mauris neque rhoncus euismod odio turpis sit.</p>
+                                </div>
+                                <div class="project-info">
+                                    <div class="project-inner-head">
+                                        <img src="images/description-icon.svg" alt="">
+                                        <h4>Description</h4>
+                                    </div>
+                                    <div class="project-info-list">
+                                        <ul>
+                                            <li><p>Category:</p><span>Blockchain Services</span></li>
+                                            <li><p>Start Date:</p><span>02-01-24</span></li>
+                                            <li><p>End Date:</p><span>04-01-24</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="project-review">
+                                    <div class="project-inner-head">
+                                        <img src="images/description-icon.svg" alt="">
+                                        <h4>Tasks</h4>
+                                    </div>
+                                    <div class="task-detail-list">
+                                        <div class="task-single">
+                                            <div>
+                                                <h3>Task Name</h3>
+                                                <p>Task 1</p>
+                                            </div>
+                                            <div>
+                                                <h3>Link</h3>
+                                                <a href="" class="btn-filled">Visit Website</a>
+                                            </div>
+                                            <div>
+                                                <h3>Description</h3>
+                                                <p>A digital currency, which is an alternative form of payment created using encryption algorithms. </p>
+                                            </div>
+                                        </div>
+                                        <div class="task-single">
+                                            <div>
+                                                <h3>Task Name</h3>
+                                                <p>Task 2</p>
+                                            </div>
+                                            <div>
+                                                <h3>Link</h3>
+                                                <a href="" class="btn-filled">Visit Website</a>
+                                            </div>
+                                            <div>
+                                                <h3>Description</h3>
+                                                <p>A digital currency, which is an alternative form of payment created using encryption algorithms. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <!-- scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
